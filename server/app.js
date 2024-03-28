@@ -15,7 +15,7 @@ app.listen(PORT, () => {
   });
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/register.html');
+    res.sendFile(__dirname + '/public/register.html');
   });
 
   app.post('/register', async (req, res) => {
